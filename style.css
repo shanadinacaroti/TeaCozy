@@ -1,0 +1,82 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~ Header ~~~~~~~~~~~~~~~~~~~~~~~ */
+header {
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    align-items: center;
+    background-color: black;
+    z-index: 1;
+}
+
+#logo {
+    height: 50px;
+    width: auto;
+    padding-left: 10px;
+}
+
+nav {
+    text-decoration: underline;
+    flex-grow: 1;
+    text-align: right;
+    
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+    text-decoration: underline;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~ Main ~~~~~~~~~~~~~~~~~~~~~~~ */
+.main {
+    padding-top: 69px;
+    margin: auto;
+    width: 1200px;
+}
+/* ~~~~~~~~~~~~~~~~~~~ Mission ~~~~~~~~~~~~~~~~~~~ */
+.ourmission {
+    height: 700px;
+    background-image: url('resources/img-mission-background.jpg');
+    align-items: center;
+    padding-top: 70px;
+}
+
+.missionText {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~ Tea of the Month ~~~~~~~~~~~~~~~~~~~ */
+.teaofthemonth {
+    text-align: center;
+}
+
+.item img {
+    height: 200px;;
+    width: 300px;
+    display: block;
+    
+    margin: 15px;
+    display: block;
+}

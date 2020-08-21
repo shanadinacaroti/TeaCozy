@@ -75,8 +75,25 @@ nav span {
 .item img {
     height: 200px;;
     width: 300px;
-    display: block;
-    
+    display: block; 
     margin: 15px;
-    display: block;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~ Store ~~~~~~~~~~~~~~~~~~~ */
+.store {
+    text-align: center;
+    background-image: url('resources/img-locations-background.jpg');
+    height: 500px;
+    padding-top: 70px;
+    margin-top: 20px;
+}
+
+.locations {
+    padding-top: 15px;
+}
+
+.location {
+    background-color: black;
+    margin: 0 40px;
+    width: 300px;
 }

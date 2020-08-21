@@ -38,7 +38,10 @@ nav {
     text-decoration: underline;
     flex-grow: 1;
     text-align: right;
-    
+}
+
+nav a {
+    color: seashell;
 }
 
 nav span {
@@ -96,4 +99,16 @@ nav span {
     background-color: black;
     margin: 0 40px;
     width: 300px;
+}
+
+footer {
+    text-align: center;
+    height: 200px;
+    padding-top: 70px;
+}
+
+footer p {
+    text-align: left;
+    font-size: 15px;
+    padding-left: 20px;
 }
